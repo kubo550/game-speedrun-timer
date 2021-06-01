@@ -17,6 +17,16 @@ Google Snake Game [here](https://www.google.com/fbx?fbx=snake_arcade).
 
 ## Usage
 
+Counter will automatically stop when player gets **50** score. \
+You can chagne goal score in *content.js* 
+
+```javascript
+ ...
+ const FRUIT_LIMIT = 50; // type any number you want
+ ...
+```
+
+
 - Press **Arrow Right** to start the timer.
 - Press **x** to stop the timer.
 - press **Space** to restart the timer.
