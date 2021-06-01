@@ -30,7 +30,7 @@ You can also change default keys to stop start and restart timer
 
 ```javascript
 
-const START_KEY = "ArrowRight";
+const START_KEY = "ArrowRight"; // KeyboardEvent.key e.g. "s"
 const STOP_KEY = "x";
 const RESTART_KEY = " ";
  
