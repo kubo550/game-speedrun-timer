@@ -1,4 +1,9 @@
 {
+  "author": {
+    "name": "Jakub Kurdziel",
+    "email": "qwercy142@wp.pl",
+    "url": "https://github.com/kubo550"
+  },
   "name": "snake-speedrun-timer",
   "version": "1.0.0",
   "main": "index.js",
