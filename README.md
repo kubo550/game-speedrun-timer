@@ -17,6 +17,6 @@ Google Snake Game [here](https://www.google.com/fbx?fbx=snake_arcade).
 
 ## Usage
 
-- Press *Arrow Right* to start the timer.
-- Press *x* to stop the timer.
-- press *Space* to restart the timer.
+- Press **Arrow Right** to start the timer.
+- Press **x** to stop the timer.
+- press **Space** to restart the timer.
