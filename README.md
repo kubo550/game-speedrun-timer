@@ -26,6 +26,16 @@ You can chagne goal score in *content.js*
  //...
 ```
 
+You can also change default keys to stop start and restart timer 
+
+```javascript
+
+const START_KEY = "ArrowRight";
+const STOP_KEY = "x";
+const RESTART_KEY = " ";
+ 
+```
+
 
 - Press **Arrow Right** to start the timer.
 - Press **x** to stop the timer.
