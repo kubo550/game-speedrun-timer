@@ -21,20 +21,22 @@ Counter will automatically stop when player gets **50** score. \
 You can chagne goal score in *content.js* 
 
 ```javascript
- //...
- const FRUIT_LIMIT = 50; // type any number you want
- //...
+
+  const FRUIT_LIMIT = 50; // type any number you want
+
 ```
 
 You can also change default keys to stop start and restart timer 
 
 ```javascript
 
-const START_KEY = "ArrowRight"; // KeyboardEvent.key e.g. "s"
-const STOP_KEY = "x";
-const RESTART_KEY = " ";
+  const START_KEY = "ArrowRight"; // KeyboardEvent.key e.g. "s"
+  const STOP_KEY = "x";
+  const RESTART_KEY = " ";
  
 ```
+
+After any change in script **you must reload extension** in [chrome://extensions/](extensions)  and refresh game page. 
 
 ### Default settings
 
