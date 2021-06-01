@@ -36,6 +36,7 @@ const RESTART_KEY = " ";
  
 ```
 
+### Default settings
 
 - Press **Arrow Right** to start the timer.
 - Press **x** to stop the timer.
