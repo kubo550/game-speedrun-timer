@@ -19,7 +19,7 @@ const START_KEY = "ArrowRight";
 const STOP_KEY = "x";
 const RESTART_KEY = " ";
 
-const FRUIT_LIMIT = 50;
+const FRUIT_LIMIT = 50; // type any number you want
 const SCORE_EL_CLASSNAME = ".HIonyd";
 
 let intervalId: number;
@@ -68,10 +68,10 @@ const startCounting = () => {
 };
 
 const restartTimer = () => {
+  stopCounting();
   minute = 0;
   second = 0;
   millisecond = 0;
-  stopCounting();
   displayTime(minute, second, millisecond);
 };
 
@@ -83,7 +83,7 @@ const checkLimit = (limit: number, className: string) => {
 const handleClick = (e: KeyboardEvent) => {
   if (e.key === RESTART_KEY) restartTimer();
   else if (e.key === STOP_KEY) stopCounting();
-  else if (e.key === START_KEY && millisecond === 0) startCounting();
+  else if (e.key === START_KEY && millisecond === 0 && second === 0) startCounting();
 };
 
 document.addEventListener("keydown", handleClick);
